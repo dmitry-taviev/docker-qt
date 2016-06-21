@@ -1,0 +1,167 @@
+-opensource  
+-nomake examples   
+-nomake tests  
+-confirm-license  
+-release
+-no-gui
+-no-xkb
+-no-xshape
+-no-xvideo 
+-no-xsync 
+-no-xinerama 
+-no-xcursor 
+-no-xfixes 
+-no-xrandr
+-no-xcb
+-no-dbus 
+-no-icu 
+-no-cups 
+-no-gif
+-no-opengl  
+-no-feature-accessibility  
+-no-feature-texthtmlparser  
+-no-feature-textodfwriter  
+-no-feature-cssparser  
+-no-feature-draganddrop  
+-no-feature-sessionmanager  
+-no-feature-shortcut  
+-no-feature-action  
+-no-feature-cursor  
+-no-feature-clipboard  
+-no-feature-effects  
+-no-feature-dom  
+-no-feature-treewidget  
+-no-feature-listwidget  
+-no-feature-tablewidget  
+-no-feature-datetimeedit  
+-no-feature-stackedwidget  
+-no-feature-textbrowser  
+-no-feature-splashscreen  
+-no-feature-splitter  
+-no-feature-lcdnumber  
+-no-feature-menu  
+-no-feature-lineedit  
+-no-feature-spinbox  
+-no-feature-tabbar  
+-no-feature-tabwidget  
+-no-feature-combobox  
+-no-feature-fontcombobox  
+-no-feature-toolbutton  
+-no-feature-toolbar  
+-no-feature-toolbox  
+-no-feature-groupbox  
+-no-feature-buttongroup  
+-no-feature-mainwindow  
+-no-feature-dockwidget  
+-no-feature-mdiarea  
+-no-feature-resizehandler  
+-no-feature-statusbar  
+-no-feature-menubar  
+-no-feature-contextmenu  
+-no-feature-progressbar  
+-no-feature-slider  
+-no-feature-scrollbar  
+-no-feature-dial  
+-no-feature-scrollarea  
+-no-feature-graphicsview  
+-no-feature-graphicseffect  
+-no-feature-spinwidget  
+-no-feature-textedit  
+-no-feature-syntaxhighlighter  
+-no-feature-rubberband  
+-no-feature-tooltip  
+-no-feature-statustip  
+-no-feature-whatsthis  
+-no-feature-validator  
+-no-feature-sizegrip  
+-no-feature-calendarwidget  
+-no-feature-printpreviewwidget  
+-no-feature-keysequenceedit  
+-no-feature-messagebox  
+-no-feature-colordialog  
+-no-feature-filedialog  
+-no-feature-printdialog  
+-no-feature-printpreviewdialog  
+-no-feature-progressdialog  
+-no-feature-inputdialog  
+-no-feature-errormessage  
+-no-feature-wizard  
+-no-feature-itemviews  
+-no-feature-dirmodel  
+-no-feature-standarditemmodel  
+-no-feature-proxymodel  
+-no-feature-sortfilterproxymodel  
+-no-feature-identityproxymodel  
+-no-feature-stringlistmodel  
+-no-feature-listview  
+-no-feature-tableview  
+-no-feature-treeview  
+-no-feature-datawidgetmapper  
+-no-feature-columnview  
+-no-feature-style-windows  
+-no-feature-style-fusion  
+-no-feature-style-windowsxp  
+-no-feature-style-windowsvista  
+-no-feature-style-windowsce  
+-no-feature-style-windowsmobile  
+-no-feature-style-stylesheet  
+-no-feature-picture  
+-no-feature-colornames  
+-no-feature-pdf  
+-no-feature-printer  
+-no-feature-cups  
+-no-feature-paint-debug  
+-no-feature-freetype    
+-no-feature-codecs  
+-no-feature-big-codecs  
+-no-feature-iconv  
+-no-feature-ftp  
+-no-feature-completer  
+-no-feature-fscompleter  
+-no-feature-desktopservices  
+-no-feature-systemtrayicon  
+-no-feature-undocommand  
+-no-feature-undostack  
+-no-feature-undogroup  
+-no-feature-undoview  
+-no-feature-animation  
+-no-feature-gestures
+-no-feature-imageformatplugin
+-no-feature-movie
+-no-feature-imageformat-bmp
+-no-feature-imageformat-ppm
+-no-feature-imageformat-xbm
+-no-feature-imageformat-xpm
+-no-feature-imageformat-png
+-no-feature-imageformat-jpeg
+-no-feature-image-heuristic-mask
+-no-feature-image-text
+-skip qt3d  
+-skip qtactiveqt  
+-skip qtandroidextras   
+-skip qtdoc  
+-skip qtdocgallery  
+-skip qtenginio  
+-skip qtfeedback  
+-skip qtgraphicaleffects  
+-skip qtlocation  
+-skip qtmacextras  
+-skip qtpim  
+-skip qtqa  
+-skip qtquick1  
+-skip qtquickcontrols  
+-skip qtrepotools  
+-skip qtscript  
+-skip qtsensors  
+-skip qtserialport  
+-skip qtsvg  
+-skip qttools  
+-skip qttranslations  
+-skip qtwayland  
+-skip qtwebchannel  
+-skip qtwebengine  
+-skip qtwebkit  
+-skip qtwebkit-examples  
+-skip qtwebsockets  
+-skip qtwinextras
+-skip qtdeclarative
