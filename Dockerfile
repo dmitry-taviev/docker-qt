@@ -1,11 +1,13 @@
 FROM ubuntu:14.04
-MAINTAINER Rihards "rihards@applyit.lv"
+MAINTAINER Rihards Grichkus "rihards.grichkus@applyit.lv"
 
 #install stuff for building & qt installation
 RUN apt-get update && apt-get install -y \
 	git \
 	build-essential \
-	perl
+	perl \
+	libssl-dev \
+	libdw-dev
 
 #options for qt configure script
 COPY qt-build-opts.txt qt-build-opts.txt
