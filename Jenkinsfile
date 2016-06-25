@@ -12,6 +12,8 @@ node {
         img.push()
         img.push('latest')
         slackSend color: 'good', message: "[<${env.BUILD_URL}|${env.JOB_NAME}:${env.BUILD_NUMBER}>] New image: ${img.id}"
+
+        build job: 'opencv', wait: false
     } catch (e) {
         slackSend color: 'danger', message: "[<${env.BUILD_URL}|${env.JOB_NAME}:${env.BUILD_NUMBER}>] Pipeline failed: ${e}"
         error(e.getMessage())
