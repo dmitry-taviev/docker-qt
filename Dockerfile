@@ -1,7 +1,7 @@
 FROM ubuntu:14.04
 MAINTAINER Rihards Grichkus "rihards.grichkus@applyit.lv"
 
-#install stuff for building & qt installation
+#install stuff for building, qt installation & library dependencies
 RUN apt-get update && apt-get install -y \
 	git \
 	build-essential \
@@ -9,7 +9,8 @@ RUN apt-get update && apt-get install -y \
 	libssl-dev \
 	libdw-dev \
 	libmysqlclient18 \
-	libmysqlclient-dev
+	libmysqlclient-dev \
+	curl
 
 #options for qt configure script
 COPY qt-build-opts.txt qt-build-opts.txt
