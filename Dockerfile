@@ -24,7 +24,8 @@ RUN git clone git://code.qt.io/qt/qt5.git qt5  && \
 	QT_BUILD_OPTS=$(cat /qt-build-opts.txt) && \
 	/qt5/configure $QT_BUILD_OPTS -qt-sql-mysql && \
 	make -j4 && \
-	make install
+	make install && \
+	cd / && rm -rf qt5
 
 #letting others know where qt & qmake reside 
 ENV PATH=/usr/local/Qt-5.4.3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
