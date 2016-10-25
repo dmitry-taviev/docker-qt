@@ -11,7 +11,11 @@ node {
         slackSend("[<${env.BUILD_URL}|${env.JOB_NAME}:${env.BUILD_NUMBER}>] Building new Docker image..")
         def service = env.JOB_NAME
         def region = 'eu-west-1'
-        def dockerRepo = "944590742144.dkr.ecr.${region}.amazonaws.com/apply/smart-${service}"
+        def repoName = "apply/smart-${service}"
+        try {
+            sh("aws ecr create-repository --repository-name ${repoName} --region ${region}")
+        } catch (e) {}
+        def dockerRepo = "944590742144.dkr.ecr.${region}.amazonaws.com/${repoName}"
         def img = docker.build("${dockerRepo}:build-${env.BUILD_NUMBER}")
         sh("eval \$(aws ecr get-login --region ${region})")
         img.push()
